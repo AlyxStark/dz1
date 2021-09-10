@@ -3,14 +3,17 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    double a, b;
+    double c;
     setlocale(LC_ALL, "russian");
     cout << "Введите первое число: ";
-    cin >> a ;
+    cin >> a;
     cout << "Введите второе число: ";
     cin >> b;
     cout << "Сумма: " << a + b << endl;
     cout << "Разность: " << a - b << endl;
     cout << "Среднее арифметическое: " << (abs(a) + abs(b)) / 2 << endl;
-
+    cout << "Произведение: " << a * b << endl;
+    c = (a / b);
+    cout << "Частное: " << c << endl;
 }
